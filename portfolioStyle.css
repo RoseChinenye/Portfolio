@@ -1,0 +1,102 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color:black;
+}
+nav{
+    width:100%;
+    height:70px;
+   
+    display:flex;
+  
+}
+nav #logo{
+    height:100%;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   /* border: 2px solid green;*/
+
+}
+nav #logo img{
+    height:70px;
+    width:90px;
+    
+}
+
+#navigation{
+    height:100%;
+    width:50%;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+#navigation a{
+    text-decoration:none;
+    color:white;
+    
+}
+#navigation a:hover{
+    color:rgb(114, 112, 224);
+}
+.active{
+    font-weight:bold;
+    color:rgb(140, 139, 214);
+}
+section{
+    width:100%;
+    height:95vh;
+    position:relative;
+    background-size:cover;
+}
+#home{
+    color:white;
+    margin-left:5%;
+    margin-top:5%;
+    
+}
+#home p:nth-child(1){
+    font-family:calibri;
+    font-weight:bold;
+    color:rgb(140, 139, 214);
+    font-size:40px;
+
+}
+#home p:nth-child(2){
+    font-family:calibri;
+    font-weight:bold;
+    color:white;
+    font-size:50px;
+    letter-spacing:1px;
+}
+#home p:nth-child(3){
+    font-family:myriad pro regular;
+    line-height:30px;
+    color:white;
+    font-size:30px;
+}
+#home p{
+    line-height:0px;
+    margin:45px 0px 25px;
+}
+#home button{
+    color:white;
+    height:42px;
+    width:130px;
+    border-radius:10px;
+    border: 2px solid rgb(140, 139, 214);
+    margin:0px 10px;
+    font-size:16px;
+    font-weight:bold;
+    font-family:calibri;
+
+}
+
+footer{
+    width:100%;
+    height:60px;
+    display:flex;
+  
+}
