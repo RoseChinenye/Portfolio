@@ -350,9 +350,10 @@ footer p{
     }
     #pic{
         height:450px;
-        width:210px;
+        width:190px;
         top:60px;
     }
+    
     #home p{
         line-height:0px;
         margin:40px 0px 20px;
@@ -360,21 +361,26 @@ footer p{
     }
     #home p:nth-child(1){
         
-        font-size:24px;
+        font-size:22px;
     
     }
     #home p:nth-child(2){
-        font-size:20px;
+        font-size:12px;
     }
     #home p:nth-child(3){
-        font-size:17px;
+        font-size:12px;
     }
     #home button{
-        height:32px;
-        width:80px;
+        height:25px;
+        width:75px;
         border-radius:6px;
         margin:0px 5px;
         font-size:14px;
+        display:flex;
+        flex-direction:column;
+        margin-bottom:10px;
+        align-content:space-around;
+        text-align: center;
     }
     section{
         height:90vh;
@@ -394,7 +400,7 @@ footer p{
         width:300px;
     }
     #about_text p:nth-child(1){
-        font-size:25px;
+        font-size:22px;
         line-height:30px;
     }
     #about_text p:nth-child(2){
@@ -417,7 +423,7 @@ footer p{
     }
     #skills_text p:nth-child(1){
         line-height: 40px;
-        font-size:25px;
+        font-size:22px;
     }
     #skills_text p:nth-child(2){
         font-size:22px;
@@ -431,7 +437,7 @@ footer p{
         font-size:15px;
     }
     #projects_head p{
-        font-size:25px;
+        font-size:22px;
         line-height: 20px;
         padding:2% 10% 0px 10%;
     }
@@ -472,7 +478,7 @@ footer p{
     height:180px;
 }
 #contact_me p{
-    font-size:25px;
+    font-size:22px;
     border-bottom:2px solid white;
 }
 #contact_me button{
@@ -495,7 +501,6 @@ footer{
     color:black;
     font-size:11px;
 } 
-
 
 }
 @media screen and (min-width : 401px) and (max-width:800px){
@@ -522,10 +527,11 @@ footer{
         
     }
     #pic{
-        height:450px;
+        height:470px;
         width:210px;
         top:60px;
     }
+    
     #home p{
         line-height:0px;
         margin:40px 0px 20px;
@@ -533,21 +539,21 @@ footer{
     }
     #home p:nth-child(1){
         
-        font-size:24px;
+        font-size:25px;
     
     }
     #home p:nth-child(2){
-        font-size:20px;
-    }
-    #home p:nth-child(3){
         font-size:17px;
     }
+    #home p:nth-child(3){
+        font-size:15px;
+    }
     #home button{
-        height:32px;
+        height:35px;
         width:80px;
         border-radius:6px;
         margin:0px 5px;
-        font-size:14px;
+        font-size:15px;
     }
     section{
         height:90vh;
